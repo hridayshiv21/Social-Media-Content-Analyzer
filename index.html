@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Content Analyzer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Social Media Content Analyzer</h1>
+    <p>Upload a PDF or image file to analyze its content and get suggestions for engagement improvements.</p>
+
+    <form id="uploadForm">
+      <input id="fileUpload" type="file" accept=".pdf, .png, .jpeg, .jpg">
+      <button type="submit">Upload & Analyze</button>
+    </form>
+
+    <div id="output" class="output">
+      <h2>Analysis Result:</h2>
+      <pre id="resultText">Upload a file to see the results here...</pre>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
