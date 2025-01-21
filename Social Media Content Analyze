@@ -1,0 +1,18 @@
+Notes on Social Media Content Analyzer Project
+
+The Social Media Content Analyzer is an application designed to analyze uploaded social media posts (PDFs and image files) and provide suggestions for improving user engagement. It employs text extraction technologies to process the uploaded files and extract content for further analysis. The project combines frontend, backend, and text-processing tools, ensuring seamless functionality and a user-friendly experience.
+
+Key Features:
+File Upload Functionality: Users can upload PDF documents and image files using a drag-and-drop interface or file picker. The application supports common formats like PDFs, PNGs, and JPEGs.
+Text Extraction:
+PDF Parsing: Extracts text while maintaining the original formatting using the pdf-parse library.
+OCR (Optical Character Recognition): Extracts text from image files using the Tesseract.js library.
+Analysis: The extracted text is analyzed to provide engagement improvement suggestions, such as using hashtags, improving readability, or incorporating action-oriented language.
+Technical Overview:
+Frontend: A user-interactive HTML/CSS interface with loading states for better UX. JavaScript handles file upload and displays results dynamically.
+Backend: Node.js with Express handles file uploads using Multer, and text processing using pdf-parse and Tesseract.js.
+Error Handling: The application gracefully handles invalid file types, parsing errors, and OCR issues, ensuring a robust user experience.
+Deliverables:
+The project includes a working application hosted locally, a GitHub repository with production-quality code, and documentation detailing the approach.
+
+This project demonstrates practical skills in file handling, text processing, and UI/UX design, making it an excellent candidate for showcasing problem-solving and coding capabilities.
